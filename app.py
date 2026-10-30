@@ -8,7 +8,7 @@ def health():
 
 @app.route("/api/message")
 def message():
-    return jsonify(message="Hello from Flask backend (v1)")
+    return jsonify(message="Hello from Flask backend (v2)")
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000)
